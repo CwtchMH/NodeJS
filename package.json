@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/CwtchMH/nodejs_experimental#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write"
+    "src/**/*.{js,json,scss,hbs}": "prettier --single-quote --trailing-comma all --write"
   },
   "description": "",
   "dependencies": {
