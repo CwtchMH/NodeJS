@@ -6,7 +6,7 @@
     "start": "nodemon --inspect src/index.js",
     "watch": "node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare":                "husky"
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/CwtchMH/nodejs_experimental#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --allow-empty --single-quote --trailing-comma all --write"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write"
   },
   "description": "",
   "dependencies": {
